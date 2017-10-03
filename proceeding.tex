@@ -34,7 +34,7 @@ The supersymmetric extension of the standard model is a promising solution for t
 
 A search in missing transverse energy, extended transverse mass, b-jets and top-quarks final state are presented in this proceeding. A customized top-jet tagging algorithm was designed in order to obtain the relatively high efficiency for all relevant values of the top quark transverse momentum.
 
-\section{Top Tagger}
+\section{Top tagger and background estimation}
 
 A cut-based top jet tagger is applied for the analysis of the 2015 data\cite{PhysRevD.96.012004}. The cut-based top jet tagger has a good efficiency over the top quark $p_{T}$ spectrum. However, the mistag rate, i.e., the rate at which an object that is not a top quark is erroneously tagged as such by the top tagging algorithm, is relatively high with this algorithm. Therefore, we designed a new top tagger, to reduce the mistag rate.
 
@@ -42,16 +42,19 @@ Only the small AK4 cone jet collection is used in the cut-based tagger in order 
 
 \begin{figure}[htbp]
  \begin{center}
-  \includegraphics[width=0.90\textwidth]{figures/Tagger_Paper.pdf}
+  \includegraphics[width=0.40\textwidth]{figures/Tagger_Paper.pdf}
+  \includegraphics[width=0.45\textwidth]{figures/UnblindPlots.pdf}
  \end{center}
- \caption{Efficiency of the top quark tagger as a function of generator-level top quark $p_{T}$ for
+ \caption
+ {
+  Efficiency of the top quark tagger (left plot) as a function of generator-level top quark $p_{T}$ for
 the monojet (red boxes), dijet (magenta upper-triangles), and trijet (green lower-triangles) categories
-and for their combination (blue circles), as determined using T2tt signal events with a
-top squark mass of 850 GeV and an LSP mass of 100 GeV. The vertical bars indicate the statistical
-uncertainties.}
+and for their combination (blue circles), as determined using T2tt signal simulation events. The right plot is observed event yields in data (black points) and predicted SM background (filled solid area) for the 84 search bins. The lower panel shows the ratio of data over total background prediction in each search bin.
+ }
  \label{fig:c4ttefftight}
 \end{figure}
 
+\clearpage
 \section{Results}
 
 The analysis interpretations are presented in Fig~\ref{fig:signal_results}. 
@@ -73,6 +76,7 @@ No excess of events above the expected standard model background is observed. Th
 %\textit{The \LaTeX\ Companion}. 
 %Addison-Wesley, Reading, Massachusetts, 1993.
 %\end{thebibliography}
+\clearpage
 \bibliographystyle{JHEP}
 \bibliography{refproceeding}
 
